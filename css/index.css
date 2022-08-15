@@ -105,7 +105,6 @@ nav {
 }
 
 
-
 @media screen and (max-width: 768px) {
 
   .intro-section{
@@ -174,6 +173,51 @@ nav {
   .vector-dot {
     bottom:32%;
     left:-5%;
+  }
+
+}
+
+@media screen and (max-width:500px) {
+  .nav-items{   
+    column-gap: 16px; 
+    font-size: 0.5rem;
+  }
+  .left-section{
+    margin-top:1rem;
+  }
+  .left-section h4 {
+    font-size:0.8rem;
+    width:100%;
+    color:#000;
+ }
+ .intro-section {
+  flex-direction: column;
+  row-gap: 16px;
+  margin:8px;
+ }
+
+
+
+.signin-btn {
+  font-size:0.6rem;
+  /* margin:20px 64px 0 0 ;  */
+  margin : 4px 4px 0;
+  padding : 4px; 
+  width:4rem;
+  /* height:12px; */
+}
+nav {
+  padding: 16px 8px;
+}
+.imgs-div {
+  margin:40px;
+}
+}
+
+@media screen and (max-width:400px) {
+  .main-div {
+    background-image: none;
+    
   }
 
 }
