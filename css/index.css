@@ -38,6 +38,11 @@ nav {
   
   padding-left:2%;
 }
+
+
+
+
+
 .main-div {
   background-image: url("../images/backcover.svg");
   background-size: contain;
@@ -54,8 +59,9 @@ nav {
 }
 .signin-btn {
   font-size:1rem;
-  margin:20px 64px 0 0 ;  
-  padding : 8px 24px;
+  /* margin:20px 64px 0 0 ;  */
+  margin : 8px 8px 0;
+  padding : 8px; 
   width:7rem;
   /* height:12px; */
 }
@@ -96,4 +102,78 @@ nav {
 }
 .intro-img {
   width:84%;
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+  .intro-section{
+    display: flex;    
+    padding-left:2%;
+  }
+  nav {
+    padding:16px;
+  }
+  .nav-items{
+    display: flex;   
+    justify-content: space-evenly;
+    column-gap: 24px; 
+    font-size: 0.7rem;
+  }
+  .left-section h1 {
+    font-size:2rem;
+  }
+  .left-section h4 {
+     font-size:0.8rem;
+     width:80%;
+  }
+ 
+  .vector-img{
+    width:20%;
+    bottom:10%;
+    left:-15%;
+  }
+  .vector-dot {
+    bottom:32%;
+    left:-5%;
+  }
+  
+}
+
+@media screen and (min-width:768px) and (max-width: 998px) {
+
+  .intro-section{
+    display: flex;    
+    padding-left:2%;
+  }
+  nav {
+    padding:16px;
+  }
+  .nav-items{
+    display: flex;   
+    justify-content: space-evenly;
+    column-gap: 24px; 
+    font-size: 0.8rem;
+  }
+  .left-section h1 {
+    font-size:2.2rem;
+  }
+  .left-section h4 {
+     font-size:1rem;
+     width:80%;
+  }
+ .intro-img {
+  width:70%;
+ }
+  .vector-img{
+    width:17%;
+    bottom:10%;
+    left:-15%;
+  }
+  .vector-dot {
+    bottom:32%;
+    left:-5%;
+  }
+
 }
